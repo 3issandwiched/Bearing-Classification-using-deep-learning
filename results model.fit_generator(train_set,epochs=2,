@@ -1,0 +1,3 @@
+results = model.fit_generator(train_set,epochs=2,
+                              validation_data=test_set,
+                             callbacks=[early_stop])
